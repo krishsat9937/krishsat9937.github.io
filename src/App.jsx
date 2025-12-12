@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div className="page">
       <header className="card header">
-        <h1>Krishna Sathyan</h1>
+        <h1>Krishna Kumar Sathyan</h1>
         <p className="subtitle">
           Full-Stack Developer. Building scalable apps with Python, Django, React, and AWS.
         </p>
