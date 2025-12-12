@@ -31,10 +31,11 @@ const Navigation = () => {
       <div className="container px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#" className="font-mono font-bold text-lg">
-            <span className="text-primary">&lt;</span>
-            KKS
-            <span className="text-primary">/&gt;</span>
+          <a href="#" className="group font-mono font-bold text-lg flex items-center gap-1">
+            <span className="text-primary transition-transform group-hover:rotate-12 inline-block">⚡</span>
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Krishna</span>
+            <span className="text-primary opacity-50">.</span>
+            <span className="text-muted-foreground text-sm">dev</span>
           </a>
 
           {/* Desktop Nav */}
@@ -52,7 +53,7 @@ const Navigation = () => {
               href="mailto:krishsat9937@gmail.com"
               className="px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:opacity-90 transition-all"
             >
-              Hire Me
+              Let's Connect
             </a>
           </div>
 
@@ -83,7 +84,7 @@ const Navigation = () => {
                 href="mailto:krishsat9937@gmail.com"
                 className="px-4 py-3 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:opacity-90 transition-all text-center mt-2"
               >
-                Hire Me
+                Let's Connect
               </a>
             </div>
           </div>

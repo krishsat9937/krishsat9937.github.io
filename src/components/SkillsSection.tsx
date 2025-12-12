@@ -1,28 +1,36 @@
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["Python", "TypeScript", "JavaScript", "SQL", "Node.js"],
+    skills: ["Python", "TypeScript", "JavaScript", "Java", "Kotlin", "SQL", "HTML", "CSS"],
   },
   {
-    title: "Backend",
-    skills: ["Django", "Flask", "REST APIs", "GraphQL", "FastAPI"],
+    title: "Backend Frameworks",
+    skills: ["Node.js", "Django", "Flask", "FastAPI", "Express.js", "Hibernate", "JOOQ"],
   },
   {
-    title: "Frontend",
-    skills: ["React", "Next.js", "Tailwind CSS", "WebSockets"],
+    title: "Frontend & Mobile",
+    skills: ["React", "Next.js", "Angular", "Redux", "React Native", "Flutter", "Tailwind CSS"],
   },
   {
-    title: "Data & AI",
-    skills: ["OpenAI", "LLaMA", "spaCy", "PySpark", "Databricks", "Pandas"],
+    title: "APIs & Communication",
+    skills: ["GraphQL", "RESTful API", "WebSockets"],
+  },
+  {
+    title: "Databases & Caching",
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RDBMS", "Snowflake"],
   },
   {
     title: "Cloud & DevOps",
-    skills: ["AWS", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "Jenkins"],
+    skills: ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Jenkins", "Azure Pipelines", "Terraform", "AWS Lambda", "S3", "Google Firebase"],
   },
   {
-    title: "Databases",
-    skills: ["PostgreSQL", "MongoDB", "Redis", "Kafka"],
+    title: "Data Engineering & AI",
+    skills: ["Apache Spark", "Databricks", "Google BigQuery", "RabbitMQ", "OpenAI", "LLaMA", "spaCy"],
   },
+  {
+    title: "Security & Tools",
+    skills: ["OAuth", "OWASP", "Canva", "Agile"],
+  }
 ];
 
 const SkillsSection = () => {
