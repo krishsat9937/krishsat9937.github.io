@@ -25,7 +25,7 @@ const experiences: Experience[] = [
   },
   {
     company: "JustPaid.io",
-    role: "Founding Engineer",
+    role: "Software Engineer",
     location: "California, United States",
     period: "08/2022 - 05/2023",
     type: "Remote",
