@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, MapPin, Phone, Download } from "lucide-react";
 import profileImage from "@/assets/profile.jpg";
+import pheonixImage from "@/assets/phoenix.png";
 
 const HeroSection = () => {
   return (
@@ -19,6 +20,17 @@ const HeroSection = () => {
           backgroundSize: '50px 50px'
         }}
       />
+
+      {/* Phoenix decorative background (image asset, low-opacity, non-interactive) */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
+        <img
+          src={pheonixImage}
+          alt=""
+          aria-hidden="true"
+          className="w-full max-w-4xl opacity-10 mix-blend-multiply object-contain"
+          style={{ pointerEvents: "none" }}
+        />
+      </div>
 
       <div className="container relative z-10 px-4 py-20">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
