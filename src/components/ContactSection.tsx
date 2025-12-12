@@ -65,7 +65,7 @@ const ContactSection = () => {
               
               <div className="flex justify-center gap-4 mb-8">
                 <a 
-                  href="https://github.com/krishnaKSatya" 
+                  href="https://github.com/krishsat9937" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-4 bg-secondary hover:bg-primary/10 border border-border hover:border-primary/50 rounded-xl transition-all group"
@@ -73,7 +73,7 @@ const ContactSection = () => {
                   <Github className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/krishna-kumar-sathyan" 
+                  href="https://www.linkedin.com/in/krishnasathyan" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-4 bg-secondary hover:bg-primary/10 border border-border hover:border-primary/50 rounded-xl transition-all group"

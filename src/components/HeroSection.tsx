@@ -99,7 +99,7 @@ const HeroSection = () => {
               style={{ animationDelay: "0.7s", opacity: 0 }}
             >
               <a 
-                href="https://github.com/krishnaKSatya" 
+                href="https://github.com/krishsat9937" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 border border-border hover:border-primary/50 transition-all group"
@@ -107,7 +107,7 @@ const HeroSection = () => {
                 <Github className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
               <a 
-                href="https://linkedin.com/in/krishna-kumar-sathyan" 
+                href="https://www.linkedin.com/in/krishnasathyan" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 border border-border hover:border-primary/50 transition-all group"
