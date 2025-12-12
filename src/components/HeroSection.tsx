@@ -26,10 +26,22 @@ const HeroSection = () => {
           <div className="relative animate-fade-in" style={{ animationDelay: "0.2s", opacity: 0 }}>
             <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full blur-2xl opacity-40 scale-110" />
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/30 glow-primary">
-              <img 
-                src={profileImage} 
+              <img
+                src={profileImage}
                 alt="Krishna Kumar Sathyan"
                 className="w-full h-full object-cover"
+                draggable={false}
+                onContextMenu={(e) => e.preventDefault()}
+                onDragStart={(e) => e.preventDefault()}
+                onMouseDown={(e) => e.preventDefault()}
+              />
+              {/* Transparent overlay to intercept right-click / drag on the image. This deters casual downloads but cannot prevent screen capture or extraction via devtools. */}
+              <div
+                aria-hidden="true"
+                className="absolute inset-0"
+                onContextMenu={(e) => e.preventDefault()}
+                onDragStart={(e) => e.preventDefault()}
+                onMouseDown={(e) => e.preventDefault()}
               />
             </div>
             {/* Status indicator */}
